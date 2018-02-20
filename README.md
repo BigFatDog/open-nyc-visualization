@@ -4,7 +4,7 @@ Open NYC Front-end Application
 
 [https://opennyc.github.io](https://opennyc.github.io/)
 
-#Prerequisite
+# Prerequisite
 * Node
 
 # Setup
