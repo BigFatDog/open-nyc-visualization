@@ -1,5 +1,6 @@
 Open NYC Front-end Application
 
+<img alt="Open NYC" src="https://github.com/opennyc/opennyc.github.io/blob/master/assets/img/open-nyc-web.jpg">
 
 [https://opennyc.github.io](https://opennyc.github.io/)
 
