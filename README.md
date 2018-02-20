@@ -15,3 +15,7 @@ Open NYC Front-end Application
 
 Please note that certain visualizations needs additional back-end running:
 * Census requires [open-nyc-datashader](https://github.com/opennyc/open-nyc-datashader)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
