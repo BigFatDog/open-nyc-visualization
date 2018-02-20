@@ -68,7 +68,7 @@ const dependencyHandlers = () => {
    * Reminder: You need to exclude any server side dependencies by listing them in dllConfig.exclude
    */
   if (!DllConfig.dlls) {
-    const manifestPath = path.resolve(dllPath, 'nycVisDeps.json');
+    const manifestPath = path.resolve(dllPath, 'openNYCDeps.json');
 
     if (!fs.existsSync(manifestPath)) {
       logger.error('The DLL manifest is missing. Please run `npm run build:dll`');

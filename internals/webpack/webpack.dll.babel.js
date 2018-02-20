@@ -18,7 +18,7 @@ const outputPath = join(process.cwd(), DllConfig.path);
 export default baseConfig({
   context: process.cwd(),
   entry: {
-    nycVisDeps: entries(pkg),
+    openNYCDeps: entries(pkg),
   },
   devtool: 'eval',
   output: {
