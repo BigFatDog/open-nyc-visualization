@@ -1,11 +1,5 @@
 const configToURL = config => {
-  const arr = [];
-  for (const key in config) {
-    if (config.hasOwnProperty(key)) {
-      arr.push(key + '=' + config[key]);
-    }
-  }
-
+  const arr = Object.keys(config).map(d => d + '=' + config[d]);
   return arr.join('&');
 };
 

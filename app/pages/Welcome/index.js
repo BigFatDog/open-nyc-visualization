@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './card.css';
 import FlightMapboxImg from './img/flights-mapbox.jpg';
 import FlightGLImg from './img/flights-gl.png';
@@ -13,8 +13,7 @@ import PedcycImg from './img/pedcyc.png';
 
 export default () => {
   return (
-    <div className="fitParent" style={{overflowY: 'auto'}}>
-
+    <div className="fitParent" style={{ overflowY: 'auto' }}>
       <div className="album py-5 bg-light">
         <div className="container">
           <div className="row">
@@ -23,7 +22,11 @@ export default () => {
           <div className="row">
             <div className="col-md-4">
               <div className="card mb-4 box-shadow">
-                <img className="card-img-top" src={CensusImg} alt="Census 2010"/>
+                <img
+                  className="card-img-top"
+                  src={CensusImg}
+                  alt="Census 2010"
+                />
                 <div className="card-body">
                   <p className="card-text">
                     Faithfully distribution of 300 million points on an
@@ -94,16 +97,21 @@ export default () => {
                 />
                 <div className="card-body">
                   <p className="card-text">
-                    Routes colors stands for departure countries. Technology: D3,
-                    PIXI and mapbox.js.
+                    Routes colors stands for departure countries. Technology:
+                    D3, PIXI and mapbox.js.
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <Link className="btn btn-sm btn-secondary" to="/flight/gl">
+                      <Link
+                        className="btn btn-sm btn-secondary"
+                        to="/flight/gl"
+                      >
                         Visit
                       </Link>
                     </div>
-                    <small className="text-muted">8107 nodes, 65563 edges</small>
+                    <small className="text-muted">
+                      8107 nodes, 65563 edges
+                    </small>
                   </div>
                 </div>
               </div>
@@ -123,11 +131,16 @@ export default () => {
 
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <Link className="btn btn-sm btn-secondary" to="/flight/canvas">
+                      <Link
+                        className="btn btn-sm btn-secondary"
+                        to="/flight/canvas"
+                      >
                         Visit
                       </Link>
                     </div>
-                    <small className="text-muted">8107 nodes, 65563 edges</small>
+                    <small className="text-muted">
+                      8107 nodes, 65563 edges
+                    </small>
                   </div>
                 </div>
               </div>
@@ -148,11 +161,16 @@ export default () => {
 
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <Link className="btn btn-sm btn-secondary" to="/flight/mapbox">
+                      <Link
+                        className="btn btn-sm btn-secondary"
+                        to="/flight/mapbox"
+                      >
                         Visit
                       </Link>
                     </div>
-                    <small className="text-muted">8107 nodes, 65563 edges</small>
+                    <small className="text-muted">
+                      8107 nodes, 65563 edges
+                    </small>
                   </div>
                 </div>
               </div>
@@ -178,7 +196,10 @@ export default () => {
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <Link className="btn btn-sm btn-secondary" to="/airline/gl">
+                      <Link
+                        className="btn btn-sm btn-secondary"
+                        to="/airline/gl"
+                      >
                         Visit
                       </Link>
                     </div>
@@ -201,10 +222,16 @@ export default () => {
 
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <Link className="btn btn-sm btn-secondary" to="/airline/canvas/force">
+                      <Link
+                        className="btn btn-sm btn-secondary"
+                        to="/airline/canvas/force"
+                      >
                         Force
                       </Link>
-                      <Link className="btn btn-sm btn-secondary btn-second" to="/airline/canvas/feb">
+                      <Link
+                        className="btn btn-sm btn-secondary btn-second"
+                        to="/airline/canvas/feb"
+                      >
                         Edge Bundling
                       </Link>
                     </div>
@@ -228,10 +255,16 @@ export default () => {
 
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                      <Link className="btn btn-sm btn-secondary" to="/airline/svg/force">
+                      <Link
+                        className="btn btn-sm btn-secondary"
+                        to="/airline/svg/force"
+                      >
                         Force
                       </Link>
-                      <Link className="btn btn-sm btn-secondary btn-second" to="/airline/svg/feb">
+                      <Link
+                        className="btn btn-sm btn-secondary btn-second"
+                        to="/airline/svg/feb"
+                      >
                         Edge Bundling
                       </Link>
                     </div>
