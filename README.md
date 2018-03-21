@@ -14,7 +14,7 @@ Open NYC Front-end Application
 4. Access to [localhost:3012](localhost:3012)
 
 Please note that certain visualizations needs additional back-end running:
-* Census requires [open-nyc-datashader](https://github.com/opennyc/open-nyc-datashader)
+* Census requires [datashader-server](https://github.com/opennyc/open-nyc-datashader)
 
 # License
 
