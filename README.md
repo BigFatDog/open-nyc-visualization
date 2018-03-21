@@ -1,6 +1,6 @@
 Open NYC Front-end Application
 
-<img alt="Open NYC" src="https://github.com/opennyc/opennyc.github.io/blob/master/assets/img/open-nyc-web.jpg">
+<img alt="Open NYC" src="https://github.com/BigFatDog/BigFatDog.github.io/blob/master/img/nyc/open-nyc-web.jpg">
 
 [http://localhost:63342/BigFatDog.github.io/open-nyc.html](http://localhost:63342/BigFatDog.github.io/open-nyc.html)
 
