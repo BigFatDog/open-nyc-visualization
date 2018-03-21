@@ -1,4 +1,4 @@
-Open NYC Front-end Application
+Visualizations for NYC open data
 
 <img alt="Open NYC" src="https://github.com/BigFatDog/BigFatDog.github.io/blob/master/img/nyc/open-nyc-web.jpg">
 
