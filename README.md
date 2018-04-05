@@ -16,6 +16,9 @@ Visualizations for NYC open data
 Please note that certain visualizations needs additional back-end running:
 * Census requires [datashader-server](https://github.com/BigFatDog/open-nyc-visualization/tree/master/shader-server)
 
+# Credits
+Census backend is based on datashader's example [census 2010](https://anaconda.org/jbednar/census/notebook)
+
 # License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
