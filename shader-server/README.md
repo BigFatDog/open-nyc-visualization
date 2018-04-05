@@ -3,19 +3,27 @@
 # open-nyc-datashader
 DataShader back-end for open-nyc
 
-#Prerequisite
+# Prerequisite
 1. Install [Anaconda](https://anaconda.org) Python 2.7 version
+
 #Setup
 1. Download or clone this project.
-2. Create anaconda virtual environment: 
+2. Download census data:
+
+```shell
+chmod 777 get-data.sh
+./get-data.sh
+```
+
+3. Create anaconda virtual environment: 
 ```shell
 conda env create --file environment.yml
 ```
-3. Activate the created environment in command line:
+4. Activate the created environment in command line:
 ```shell
 source activate opennyc
 ```
-4. Start python server
+5. Start python server
 ```shell
 python census.py
 ```

@@ -11,7 +11,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-df = dd.io.parquet.read_parquet('/Users/bigfatdog/scale-data/census.snappy.parq')
+df = dd.io.parquet.read_parquet('./census.snappy.parq')
 df = df.persist()
 
 print('-----------------------  head 5 ----------------------')

@@ -1,8 +1,8 @@
 Visualizations for NYC open data
 
-<img alt="Open NYC" src="https://github.com/BigFatDog/BigFatDog.github.io/blob/master/img/nyc/open-nyc-web.jpg">
+<img alt="Open NYC" src="https://github.com/BigFatDog/BigFatDog.github.io/blob/master/img/nyc/census-2010.png">
 
-[http://localhost:63342/BigFatDog.github.io/open-nyc.html](http://localhost:63342/BigFatDog.github.io/open-nyc.html)
+[Gallery](https://bigfatdog.github.io/open-nyc.html)
 
 # Prerequisite
 * Node
