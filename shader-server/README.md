@@ -1,4 +1,4 @@
-<img alt="Census 2010" src="https://github.com/opennyc/opennyc.github.io/blob/master/assets/img/census-2010.png">
+<img alt="Census 2010" src="https://github.com/BigFatDog/BigFatDog.github.io/blob/master/img/nyc/census-2010.png">
 
 # open-nyc-datashader
 DataShader back-end for open-nyc
